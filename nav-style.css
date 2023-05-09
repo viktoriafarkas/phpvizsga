@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Luckiest+Guy&family=Paytone+One&family=Quicksand:wght@300;400;500&display=swap');
+
+
+ .navbar {
+    background-color: #ffe30e!important;
+    color: #e5e5e5;
+}
+
+a.navbar-brand p {
+    font-family: 'Luckiest Guy', cursive!important;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+a.nav-link {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+} 
+
+ .navbar-collapse ul li a {
+    z-index:10;
+}
+
+.navbar-collapse ul li a.fooldal::after {
+    content: '';
+    position: absolute;
+    top: 59px;
+    right: 160px;
+    width: 55px;
+    height: 10px;
+    background: #000000;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: 2;
+}
+
+.navbar-collapse ul li a.fooldal:hover::after{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+}
+
+.nav-item.dropdown::after {
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: 14px;
+    width: 55px;
+    height: 10px;
+    background: #000000;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: 2;
+}
+
+.nav-item.dropdown:hover::after{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+}
+
+.navbar-collapse ul li a.admin::after {
+    content: '';
+    position: absolute;
+    top: 59px;
+    right: 17px;
+    width: 55px;
+    height: 10px;
+    background: #000000;
+    transition: 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: 2;
+}
+
+.navbar-collapse ul li a.admin:hover::after{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+  }
+ 
+
+

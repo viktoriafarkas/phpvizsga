@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Luckiest+Guy&family=Paytone+One&family=Quicksand:wght@300;400;500&display=swap');
+
+
+.foot {
+    padding-right: 20px;
+    background-color: #ffc23f;
+}
+
+#bg {
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    height: 620px;
+}
+
+#bg p, #bg h1 {
+    color: #ffc23f;
+}
+
+#bg h1 {
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    font-size: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#bg p {
+    width: 550px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+#sec-2 h2 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#sec-2 h5, #sec-2 p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#sec-2 p:first-of-type {
+   color: black!important;;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-body{
+    padding: 10px 30px 50px 30px;
+}
+
+.card-body .text-center{
+    padding: 0 50px;
+}
+
+.card-body .btn{
+    margin-top: 30px!important;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 400ms ease;
+}
+
+.card-body a{
+    text-decoration: none;
+}
+
+.card-body .btn:hover{
+    margin-top: 30px!important;
+    background-color: black!important;
+    color:#ffc23f;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: rgba(255, 208, 0, 0.664) 0 1px 30px;
+}
+
+.card-body p:last-of-type{
+    margin-top: 30px!important;
+}
+
+.row img {
+    margin: 30px 0 10px 0;
+}
+
+#sec-3 img{
+    transition: all 500ms ease;
+}
+
+#sec-3 img:hover{
+ opacity: 0.5;
+
+}
+
+#rolunk h2 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#rolunk p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 17.3px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 75%;
+    overflow: hidden;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 10%;
+  width: 40%;
+}
+
+.carousel-sec h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: black!important;
+    padding-bottom: 30px;
+}
+
+.carousel-sec {
+    margin-bottom: 100px;
+}
+
+#top .btn {
+background-color: #000000!important;
+}
+
+#btn-back-to-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    background-image: url(./img/icons8-up-64.png);
+    background-size: cover;
+}
+
+footer {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+footer p, footer address {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#bottom p {
+    background-color: #000000!important;
+    color: #ffc23f;
+    padding-right:-30px;
+    margin:0!important;
+    text-align: center;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+footer address {
+    margin-top: 30px;
+}
+
+.icons img{
+    opacity: 0.5;
+    transition: all 500ms ease;
+}
+    
+
+.icons img:hover {
+opacity: 1;
+transform: rotate(30deg);
+}
+
+.container h1, #login {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#main-cars, #main-date, #login{
+    font-family: 'Quicksand', sans-serif;
+}
+.own-td-1 {
+    width: 15%!important;
+}
+
+.own-td-2 {
+    width: 55%!important;
+}
+
+.own-td-3 {
+    width: 65%!important;
+}
+
+.own-td-4 {
+    width: 20%!important;
+}

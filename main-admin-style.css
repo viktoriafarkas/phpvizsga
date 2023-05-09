@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Luckiest+Guy&family=Paytone+One&family=Quicksand:wght@300;400;500&display=swap');
+
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Quicksand', sans-serif!important;
+}
+
+#pgside,
+#pgmain {
+    padding: 20px
+}
+
+#pgside {
+    width: 150px;
+}
+
+#pgmain {
+    flex-grow: 1;
+}
+
+#pgmain h2{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#pgmain h3 {
+    font-family: 'Quicksand', sans-serif!important;
+    color: #ffc23f;
+    margin-top: 80px;
+    background-image:url(./img/bg.jpg);
+    background-size: cover;
+    padding: 234px 0;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(190, 190, 190);
+}
+
+#pgside a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+td .btn {
+    margin:auto;
+}
+
+.center-box {
+    margin: 20px 10px;
+}
+
+h3 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#main-admin a{
+    font-family: 'Quicksand', sans-serif!important;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: all ease 300ms;
+}
+
+#main-admin a:hover{
+    color:white;
+}
+
+#main-admin a:last-of-type{
+    margin-bottom: 30px;
+}
+
+.descr {
+      font-family: 'Quicksand', sans-serif!important;
+      font-size: 14px;
+      width: 45%;
+}
+
